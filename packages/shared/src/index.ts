@@ -1,0 +1,5 @@
+export interface RetirementInput{currentAge:number;retirementAge:number;lifeExpectancy:number;currentAssets:number;monthlySavings:number;retirementMonthlyExpense:number;pensionMonthlyIncome:number;inflationRate:number;preRetirementReturn:number;postRetirementReturn:number;medicalReserve:number}
+export interface CashflowPoint{age:number;year:number;phase:"work"|"retirement";assets:number;income:number;expense:number;netCashflow:number}
+export interface RetirementPlan{retirementAssets:number;requiredRetirementCapital:number;fundingRatio:number;sustainableAge:number;cashflow:CashflowPoint[]}
+export interface RiskReport{longevityGap:number;inflationGap:number;marketGap:number;pensionGap:number;overallRiskLevel:"低"|"中"|"高"}
+export interface Solution{name:string;description:string;allocation:Record<string,number>;estimatedMonthlyIncome:number;liquidity:"高"|"中"|"低";mainRisk:string}
