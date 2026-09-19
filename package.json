@@ -1,1 +1,1 @@
-{"name":"retirement-financial-platform","private":true,"workspaces":["apps/*","packages/*"],"scripts":{"dev":"npm run dev --workspace=@retirement/web","dev:api":"npm run dev --workspace=@retirement/api","build":"npm run build --workspaces"}}
+{"name":"anling-retirement-risk-platform","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest","recharts":"latest"}}

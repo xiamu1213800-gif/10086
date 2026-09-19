@@ -1,1 +1,0 @@
-{"name":"@retirement/solution-engine","version":"0.1.0","type":"module","exports":{".":"./src/index.ts"},"dependencies":{"@retirement/shared":"0.1.0"}}
