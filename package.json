@@ -1,0 +1,1 @@
+{"name":"retirement-financial-platform","private":true,"workspaces":["apps/*","packages/*"],"scripts":{"dev":"npm run dev --workspace=@retirement/web","dev:api":"npm run dev --workspace=@retirement/api","build":"npm run build --workspaces"}}
