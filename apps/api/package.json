@@ -1,0 +1,1 @@
+{"name":"@retirement/api","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"tsx src/server.ts"},"dependencies":{"@retirement/retirement-engine":"0.1.0","@retirement/risk-engine":"0.1.0","@retirement/solution-engine":"0.1.0","fastify":"^5.6.0","@fastify/cors":"^11.0.0","tsx":"^4.20.0"}}
